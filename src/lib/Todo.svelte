@@ -39,3 +39,61 @@ const removeTodo = (index) => {
         {/each}
     </ul>
 </form>
+
+
+<style>
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    input[type="text"] {
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 80%;
+    }
+  
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      color: white;
+      background-color: #007BFF;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  
+    button:hover {
+      background-color: #0056b3;
+    }
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+      width: 80%;
+    }
+  
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 5px;
+      background-color: #f9f9f9;
+    }
+  
+    li button {
+      background-color: #dc3545;
+    }
+  
+    li button:hover {
+      background-color: #c82333;
+    }
+  </style>

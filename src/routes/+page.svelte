@@ -10,7 +10,7 @@ import Todo from "$lib/Todo.svelte";
 
 
 <h1>My ToDo List</h1>
-<p>Make a ToDo List</p>
+
 
 
 <Todo />
@@ -19,8 +19,10 @@ import Todo from "$lib/Todo.svelte";
 
 <style lang="css">
     h1 {
-      color: #ff3e00;
+      color: #00aaff;
       text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-shadow: 2px 2px 5px #071679
     }
     p {
       font-size: 1.2em;
@@ -32,4 +34,5 @@ import Todo from "$lib/Todo.svelte";
     a:hover {
       text-decoration: underline;
     }
+ 
   </style>
